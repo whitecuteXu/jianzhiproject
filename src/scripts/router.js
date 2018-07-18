@@ -11,7 +11,9 @@ import Setting from "./views/setting.vue";
 import LatestUpload from "./views/latestUpload.vue";
 import MostViewed from "./views/mostViewed.vue";
 import LikeMost from "./views/likeMost.vue";
-import SignUp from "./views/signUp.vue"
+import SignUp from "./views/signUp.vue";
+import Entrance from "./views/entrance.vue";
+import RegForm from "./views/regForm.vue";
 
 
 // 配置路由 routes
@@ -51,6 +53,15 @@ const routes = [{
         path: "/signUp",
         name: "signUp",
         component: SignUp
+    }, {
+        path: "/signUp/entrance/:id",
+        name: "entrance",
+        component: Entrance
+    },
+    {
+        path: "/signUp/regForm",
+        name: "regForm",
+        component: RegForm
     },
     {
         path: "/setting",
