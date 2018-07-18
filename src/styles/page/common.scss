@@ -1,0 +1,111 @@
+$themeBg:#2d2c32;
+$buttonBg:#ff2842;
+// 头部样式
+#app {
+    .mint-header {
+        background-color: $themeBg;
+        height: 96px;
+        .mint-header-title {
+            font-size: 34px;
+        }
+        .mint-button-text {
+            font-size: 30px;
+        }
+    }
+}
+
+// 登录样式
+.login {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    .formShadow {
+        box-shadow: 5px -5px 10px #eee;
+        margin-top: 40px;
+        width: 100%;
+        .loginForm {
+            width: 100%;
+            box-shadow: 5px 5px 10px #eee;
+            .row {
+                margin: 0 30px;
+                height: 99px;
+                border-bottom: 1px solid #ededed;
+                line-height: 99px;
+                &:last-child {
+                    border-bottom: 0;
+                }
+                .rowLeft {
+                    width: 16%;
+                    display: inline-block;
+                    line-height: 30px;
+                    height: 30px;
+                    border-right: 1px solid #000;
+                }
+                input {
+                    line-height: 90px;
+                    margin: 5px 0 5px 20px;
+                    width: 70%;
+                }
+            }
+        }
+    }
+    .mint-button--large {
+        background-color: $buttonBg;
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        width: calc(100% - 60px);
+        font-size: 36px;
+    }
+}
+
+// 大赛首页样式
+.signUp {
+    .banner {
+        height: 280px;
+        img {
+            height: 100%;
+        }
+    }
+    .listShadow {
+        box-shadow: 5px -5px 10px #eee;
+        margin-top: 40px;
+        width: 100%;
+        .list {
+            width: 100%;
+            box-shadow: 5px 5px 10px #eee;
+            .row {
+                height: 94px;
+                border-bottom: 1px solid #ededed;
+                margin: 0 30px;
+                padding: 12px 0;
+                .right {
+                    float: right;
+                    line-height: 94px;
+                    .iconfont {
+                        color: #000;
+                        font-size: 30px;
+                    }
+                }
+                .left {
+                    float: left;
+                    .textTop {
+                        width: 90%;
+                        float: left;
+                        font-size: 32px;
+                        line-height: 50px;
+                    }
+                    .textBottom {
+                        width: 90%;
+                        font-size: 26px;
+                        line-height: 44px;
+                        float: left;
+                    }
+                }
+                &：:last-child {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}
