@@ -1,4 +1,5 @@
 <template>
+    <!-- 报名入口 -->
     <div class="entrance">
         <Head :title="title" :show="true" />
         <img :src="image" />

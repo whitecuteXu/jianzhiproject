@@ -1,5 +1,16 @@
 $themeBg:#2d2c32;
 $buttonBg:#ff2842;
+.clearfix:after {
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
 // 头部样式
 #app {
     .mint-header {
@@ -269,5 +280,63 @@ $buttonBg:#ff2842;
         margin: 30px;
         width: calc(100% - 60px);
         font-size: 36px;
+    }
+}
+
+// 我的作品页面样式
+.work {
+    margin-top: 135px;
+    .list {
+        box-shadow: 5px -5px 10px #eee, 5px 5px 10px #eee;
+        padding: 0 32px 36px;
+        .listHead {
+            padding: 26px 0;
+            .line {
+                // display: inline-block;
+                width: 202px;
+                height: 1px;
+                background-color: $buttonBg;
+                line-height: 38px;
+                float: left;
+                margin-top: 25px;
+            }
+            .circle {
+                float: left; // display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background-color: $buttonBg;
+                line-height: 38px;
+                margin-top: 20px;
+            }
+            .title {
+                float: left; // display: inline-block;
+                font-size: 38px;
+                font-weight: bold;
+                color: $buttonBg;
+                padding: 0 17px;
+            }
+        }
+        .headtext {
+            height: 60px;
+            h3 {
+                font-size: 34px;
+                font-weight: bold;
+                line-height: 60px;
+                float: left;
+            }
+            h4 {
+                font-size: 28px;
+                font-weight: bold;
+                color: #f9ab13;
+                padding-top: 6px;
+                line-height: 54px;
+                float: right;
+            }
+        }
+        .content {
+            font-size: 30px;
+            line-height: 45px;
+        }
     }
 }

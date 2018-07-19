@@ -14,6 +14,7 @@ import LikeMost from "./views/likeMost.vue";
 import SignUp from "./views/signUp.vue";
 import Entrance from "./views/entrance.vue";
 import RegForm from "./views/regForm.vue";
+import Work from "./views/work.vue";
 
 
 // 配置路由 routes
@@ -67,6 +68,11 @@ const routes = [{
         path: "/setting",
         name: "setting",
         component: Setting
+    },
+    {
+        path: "/setting/work",
+        name: "work",
+        component: Work
     },
     {
         path: "*",

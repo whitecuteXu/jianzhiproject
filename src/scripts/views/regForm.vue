@@ -1,4 +1,5 @@
 <template>
+    <!-- 报名表单提交页面 -->
     <div class="regForm">
         <Head :title="title" :show="true" />
         <div class="top">
@@ -73,7 +74,7 @@
         },
         methods: {
             submitForm() {
-                window.location.href = "#/setting";
+                window.location.href = "#/setting/work";
             }
         }
     }

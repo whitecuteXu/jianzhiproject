@@ -1,4 +1,5 @@
 <template>
+    <!-- 登录页面 -->
     <div class="login">
         <Head :title="title" :show="true" />
         <div class="formShadow">

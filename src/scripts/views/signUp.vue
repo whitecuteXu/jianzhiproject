@@ -1,4 +1,5 @@
 <template>
+    <!-- 大赛列表页面 -->
     <div class="signUp">
         <Head :title="title" :show="true" />
         <Banner :banner="imageList" />
